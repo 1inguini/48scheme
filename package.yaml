@@ -21,7 +21,32 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
-- parsec
+- text
+- containers
+- optics
+- generic-optics
+- safe-exceptions
+# - megaparsec
+
+default-extensions:
+- ConstraintKinds
+- DataKinds
+- DefaultSignatures
+- DeriveFunctor
+- DeriveGeneric
+- ExistentialQuantification
+- FlexibleContexts
+- FlexibleInstances
+- DuplicateRecordFields
+- GADTs
+- GeneralizedNewtypeDeriving
+- LambdaCase
+- MultiParamTypeClasses
+- OverloadedStrings
+- ScopedTypeVariables
+- StandaloneDeriving
+- TypeApplications
+- TypeFamilies
 
 library:
   source-dirs: src
