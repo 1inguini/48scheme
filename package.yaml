@@ -43,6 +43,7 @@ default-extensions:
 - LambdaCase
 - MultiParamTypeClasses
 - OverloadedStrings
+- RankNTypes
 - ScopedTypeVariables
 - StandaloneDeriving
 - TypeApplications
